@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Card Grid</title>
+    <!-- Tailwind CSS via CDN - quick setup -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 p-4 ">
+    <section id="card-section" class="max-w-7xl p-4 md:p-6">
+        <!-- Section heading -->
+        <h2 class="text-3xl font-bold text-gray-900"> Section title-max 80 char. </h2>
+        <p class="mt-2 text-gray-600 max-w-2xl text-sm">
+            (optional) Section description - max 256 char. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. sed do eliusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div
+                class="bg-white rounded-xl shadow overflow-hidden transform transition-transform hover:-translate-y-1 hover:shadow-lg">
+                <div class="relative bg-gray-100">
+                    <img src="https://assets.ot.digital/img/webp/image600x285.webp" alt="Demo card image"
+                        class="w-full h-auto object-contain" />
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <a href="#" aria-label="View card details"
+                            class="rounded-full p-3 bg-blue-600 hover:bg-[#01007e] transition">
+
+                            <!-- SVG arrow icon -->
+                            <svg width="33" height="32" viewBox="0 0 33 32" fill="none" role="img" aria-hidden="true">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.73438 2.63379L8.23091 25.157L13.9886 19.4593L18.472 28.7883C18.472 28.7883 19.3559 29.4301 20.3492 28.766C20.966 28.3538 21.5886 27.5309 21.3298 26.878C20.1081 23.7956 17.0494 17.9402 17.0494 17.9402L24.5935 17.9402L8.73438 2.63379Z"
+                                    fill="white" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="absolute bottom-0 left-6 flex space-x-2">
+                        <span class="text-sm font-semibold px-4 py-1 rounded-t-lg bg-blue-600 text-white">New</span>
+                        <span
+                            class="text-sm font-semibold px-4 py-1 rounded-t-lg bg-green-700 text-white">Watched</span>
+                    </div>
+                </div>
+                <!-- Card body -->
+                <div class="p-4 md:p-6 bg-[#f7f7f7]">
+                    <!-- Title: 24px bold -->
+
+                    <h3 class="text-2xl font-bold text-gray-900">Effect library undo create font pencil. Flows.</h3>
+                    <!-- Description: 14px -->
+
+                    <p class="mt-1 text-gray-500 text-sm">
+                        Duplicate inspect rotate flows community.
+                    </p>
+                    <!-- Tags: 14px -->
+
+                    <div class="mt-3 flex flex-wrap gap-2 text-sm text-gray-500">
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white hover:bg-blue-700 hover:text-white transition">AI</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">Aviator</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">DevOps</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">Click
+                            tour</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--Card 2-->
+            <div
+                class="bg-white rounded-xl shadow overflow-hidden transform transition-transform hover:-translate-y-1 hover:shadow-lg">
+                <div class="relative bg-gray-100">
+                    <img src="https://assets.ot.digital/img/webp/image600x285.webp" alt="Demo card image"
+                        class="w-full h-auto object-contain" />
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <a href="#" aria-label="View card details"
+                            class="rounded-full p-3 bg-blue-600 hover:bg-[#01007e] transition">
+                            <svg width="33" height="32" viewBox="0 0 33 32" fill="none" role="img" aria-hidden="true">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.73438 2.63379L8.23091 25.157L13.9886 19.4593L18.472 28.7883C18.472 28.7883 19.3559 29.4301 20.3492 28.766C20.966 28.3538 21.5886 27.5309 21.3298 26.878C20.1081 23.7956 17.0494 17.9402 17.0494 17.9402L24.5935 17.9402L8.73438 2.63379Z"
+                                    fill="white" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="absolute bottom-0 left-6 flex space-x-2">
+                        <span class="text-sm font-semibold px-4 py-1 rounded-t-lg bg-blue-600 text-white">New</span>
+                        <span
+                            class="text-sm font-semibold px-4 py-1 rounded-t-lg bg-green-700 text-white">Watched</span>
+                    </div>
+                </div>
+                <div class="p-4 md:p-6 bg-[#f7f7f7]">
+                    <h3 class="text-2xl font-bold text-gray-900">Effect library undo create font pencil. Flows.</h3>
+                    <p class="mt-1 text-gray-500 text-sm">
+                        Duplicate inspect rotate flows community.
+                    </p>
+                    <div class="mt-3 flex flex-wrap gap-2 text-sm text-gray-500">
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white hover:bg-blue-700 hover:text-white transition">AI</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">Aviator</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">DevOps</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">Click
+                            tour</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 3-->
+
+            <div
+                class="bg-white rounded-xl shadow overflow-hidden transform transition-transform hover:-translate-y-1 hover:shadow-lg">
+                <div class="relative bg-gray-100">
+                    <img src="https://assets.ot.digital/img/webp/image600x285.webp" alt="Demo card image"
+                        class="w-full h-auto object-contain" />
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <a href="#" aria-label="View card details"
+                            class="rounded-full p-3 bg-blue-600 hover:bg-[#01007e] transition">
+                            <svg width="33" height="32" viewBox="0 0 33 32" fill="none" role="img" aria-hidden="true">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.73438 2.63379L8.23091 25.157L13.9886 19.4593L18.472 28.7883C18.472 28.7883 19.3559 29.4301 20.3492 28.766C20.966 28.3538 21.5886 27.5309 21.3298 26.878C20.1081 23.7956 17.0494 17.9402 17.0494 17.9402L24.5935 17.9402L8.73438 2.63379Z"
+                                    fill="white" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="absolute bottom-0 left-6 flex space-x-2">
+                        <span class="text-sm font-semibold px-4 py-1 rounded-t-lg bg-blue-600 text-white">New</span>
+                        <span
+                            class="text-sm font-semibold px-4 py-1 rounded-t-lg bg-green-700 text-white">Watched</span>
+                    </div>
+                </div>
+                <div class="p-4 md:p-6 bg-[#f7f7f7]">
+                    <h3 class="text-2xl font-bold text-gray-900">Effect library undo create font pencil. Flows.</h3>
+                    <p class="mt-1 text-gray-500 text-sm">
+                        Duplicate inspect rotate flows community.
+                    </p>
+                    <div class="mt-3 flex flex-wrap gap-2 text-sm text-gray-500">
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white hover:bg-blue-700 hover:text-white transition">AI</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">Aviator</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">DevOps</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">Click
+                            tour</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Card 4-->
+
+            <div
+                class="bg-white rounded-xl shadow overflow-hidden transform transition-transform hover:-translate-y-1 hover:shadow-lg">
+                <div class="relative bg-gray-100">
+                    <img src="https://assets.ot.digital/img/webp/image600x285.webp" alt="Demo card image"
+                        class="w-full h-auto object-contain" />
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <a href="#" aria-label="View card details"
+                            class="rounded-full p-3 bg-blue-600 hover:bg-[#01007e] transition">
+                            <svg width="33" height="32" viewBox="0 0 33 32" fill="none" role="img" aria-hidden="true">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.73438 2.63379L8.23091 25.157L13.9886 19.4593L18.472 28.7883C18.472 28.7883 19.3559 29.4301 20.3492 28.766C20.966 28.3538 21.5886 27.5309 21.3298 26.878C20.1081 23.7956 17.0494 17.9402 17.0494 17.9402L24.5935 17.9402L8.73438 2.63379Z"
+                                    fill="white" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="absolute bottom-0 left-6 flex space-x-2">
+                        <span class="text-sm font-semibold px-4 py-1 rounded-t-lg bg-blue-600 text-white">New</span>
+                        <span
+                            class="text-sm font-semibold px-4 py-1 rounded-t-lg bg-green-700 text-white">Watched</span>
+                    </div>
+                </div>
+                <div class="p-4 md:p-6 bg-[#f7f7f7]">
+                    <h3 class="text-2xl font-bold text-gray-900">Effect library undo create font pencil. Flows.</h3>
+                    <p class="mt-1 text-gray-500 text-sm">
+                        Duplicate inspect rotate flows community.
+                    </p>
+                    <div class="mt-3 flex flex-wrap gap-2 text-sm text-gray-500">
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white hover:bg-blue-700 hover:text-white transition">AI</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">Aviator</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">DevOps</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">Click
+                            tour</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--Card 5-->
+
+            <div
+                class="bg-white rounded-xl shadow overflow-hidden transform transition-transform hover:-translate-y-1 hover:shadow-lg">
+                <div class="relative bg-gray-100">
+                    <img src="https://assets.ot.digital/img/webp/image600x285.webp" alt="Demo card image"
+                        class="w-full h-auto object-contain" />
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <a href="#" aria-label="View card details"
+                            class="rounded-full p-3 bg-blue-600 hover:bg-[#01007e] transition">
+                            <svg width="33" height="32" viewBox="0 0 33 32" fill="none" role="img" aria-hidden="true">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.73438 2.63379L8.23091 25.157L13.9886 19.4593L18.472 28.7883C18.472 28.7883 19.3559 29.4301 20.3492 28.766C20.966 28.3538 21.5886 27.5309 21.3298 26.878C20.1081 23.7956 17.0494 17.9402 17.0494 17.9402L24.5935 17.9402L8.73438 2.63379Z"
+                                    fill="white" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="absolute bottom-0 left-6 flex space-x-2">
+                        <span class="text-sm font-semibold px-4 py-1 rounded-t-lg bg-blue-600 text-white">New</span>
+                        <span
+                            class="text-sm font-semibold px-4 py-1 rounded-t-lg bg-green-700 text-white">Watched</span>
+                    </div>
+                </div>
+                <div class="p-4 md:p-6 bg-[#f7f7f7]">
+                    <h3 class="text-2xl font-bold text-gray-900">Effect library undo create font pencil. Flows.</h3>
+                    <p class="mt-1 text-gray-500 text-sm">
+                        Duplicate inspect rotate flows community.
+                    </p>
+                    <div class="mt-3 flex flex-wrap gap-2 text-sm text-gray-500">
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white hover:bg-blue-700 hover:text-white transition">AI</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">Aviator</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">DevOps</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">Click
+                            tour</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Card 6-->
+
+            <div
+                class="bg-white rounded-xl shadow overflow-hidden transform transition-transform hover:-translate-y-1 hover:shadow-lg">
+                <div class="relative bg-gray-100">
+                    <img src="https://assets.ot.digital/img/webp/image600x285.webp" alt="Demo card image"
+                        class="w-full h-auto object-contain" />
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <a href="#" aria-label="View card details"
+                            class="rounded-full p-3 bg-blue-600 hover:bg-[#01007e] transition">
+                            <svg width="33" height="32" viewBox="0 0 33 32" fill="none" role="img" aria-hidden="true">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.73438 2.63379L8.23091 25.157L13.9886 19.4593L18.472 28.7883C18.472 28.7883 19.3559 29.4301 20.3492 28.766C20.966 28.3538 21.5886 27.5309 21.3298 26.878C20.1081 23.7956 17.0494 17.9402 17.0494 17.9402L24.5935 17.9402L8.73438 2.63379Z"
+                                    fill="white" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="absolute bottom-0 left-6 flex space-x-2">
+                        <span class="text-sm font-semibold px-4 py-1 rounded-t-lg bg-blue-600 text-white">New</span>
+                        <span
+                            class="text-sm font-semibold px-4 py-1 rounded-t-lg bg-green-700 text-white">Watched</span>
+                    </div>
+                </div>
+                <div class="p-4 md:p-6 bg-[#f7f7f7]">
+                    <h3 class="text-2xl font-bold text-gray-900">Effect library undo create font pencil. Flows.</h3>
+                    <p class="mt-1 text-gray-500 text-sm">
+                        Duplicate inspect rotate flows community.
+                    </p>
+                    <div class="mt-3 flex flex-wrap gap-2 text-sm text-gray-500">
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white hover:bg-blue-700 hover:text-white transition">AI</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">Aviator</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">DevOps</a>
+                        <a href="#"
+                            class="px-2 py-1 rounded-full bg-white  hover:bg-blue-700 hover:text-white transition">Click
+                            tour</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
